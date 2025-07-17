@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s ease-in-out;
+  background: linear-gradient(to right, #f0f0f0, #cccccc);
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background: white;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+.mood-buttons button {
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.mood-buttons button:hover {
+  transform: scale(1.05);
+}
+
+.player {
+  margin-top: 2rem;
+}
+
+audio {
+  width: 100%;
+}
+
